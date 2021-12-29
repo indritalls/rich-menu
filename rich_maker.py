@@ -9,7 +9,7 @@ import dotenv
 
 dotenv.load_dotenv()
 # TODO put LINE_ACCESS_TOKEN in .env file
-api = LineBotApi(environ.get("LINE_ACCESS_TOKEN"))
+api = LineBotApi(environ.get("lIKFwU/TgvvYQAVMTT0V3L/Q4MJUnjZFb4TdtVb4xeb3YRAVMkRusqyAiIifWjdhFzwiWPT0u8F4B9iB1ILEjXqWEjNEy9xvClCqk8xnFjPVfl1MLFsJ/k6nam1Y94ksJNiLuuU0poOvR905pXJ8JwdB04t89/1O/w1cDnyilFU="))
 
 # TODO Edit this path accordingly
 base_directory = "./rich_menu_img"
